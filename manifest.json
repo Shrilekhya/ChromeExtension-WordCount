@@ -1,0 +1,17 @@
+{   
+    "manifest_version": 3,
+    "name": "Word Counter",
+    "version": "1.0.0",
+    "description": "Select the text and I will tell you how many words it has.",
+    "author": "Sasi Shrilekhya",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Word Counter",
+        "default_icon": {
+            "16": "wc-16x16.png",
+            "32": "wc-32x32.png"
+          }
+    },
+    "permissions": ["scripting", "activeTab"]
+    
+}
